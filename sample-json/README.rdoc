@@ -1,3 +1,8 @@
+http://localhost:3000/
+http://localhost:3000/hello/index
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
