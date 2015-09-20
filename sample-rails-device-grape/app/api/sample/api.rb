@@ -20,11 +20,9 @@ module Sample
       end
     end
 
-    resource :api do
-      get :sample do
-        authenticate_user!
-        {message: 'test'}
-      end
+    get :sample do
+      authenticate_user!
+      {message: 'test'}
     end
   end
 end

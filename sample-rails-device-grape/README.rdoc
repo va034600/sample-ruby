@@ -4,6 +4,20 @@ Devise + Grape で認証付きAPIの実装 (フロントエンドと Railsの分
 
 http://qiita.com/shimashima/items/ec0b08a9a19cbe9ec78b
 
+
+
+http://localhost:3000/users/sign_in
+http://localhost:3000/api/sample/sample
+http://localhost:3000/api/v1/auth/sign_in
+     email
+     password
+http://localhost:3000/api/v1/auth/sign_out
+     Client
+     Access-Token
+     Uid
+
+
+     
 == README
 
 This README would normally document whatever steps are necessary to get the
